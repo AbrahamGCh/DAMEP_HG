@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DAMEP_Abraham_Garcia</string>
+    <string name="radio_Urbano">Urbano</string>
+    <string name="radio_Rural">Rural</string>
+    <string name="checkbox_Gato">Gato</string>
+    <string name="checkbox_Perro">Perro</string>
+    <string name="checkbox_Pollo">Pollo</string>
+    <string name="checkbox_Pato">Pato</string>
+    <string name="checkbox_Otro">Otro</string>
+    <string name="boton_Enviar">Enviar</string>
+    <string name="text_Censo">CENSO DAM</string>
+    <string name="text_Datos">Apellidos y Nombres</string>
+    <string name="text_Correo">Correo Electronico</string>
+    <string name="text_Clave">Clave</string>
+    <string name="text_Telefono">Telefono de Contacto</string>
+    <string name="text_FN">Fecha de Nacimiento</string>
+    <string name="text_HN">Hora de Nacimiento</string>
+    <string name="text_Residencia">Zona de Residencia</string>
+    <string name="text_CantPersonas">¿Cuántas personas viven en la vivienda?</string>
+    <string name="text_Sueldo">Ingreso (Sueldo) Promedio de la Familia</string>
+    <string name="text_Opinion">¿Que opina sobre los bonos otorgados por el gobierno?</string>
+    <string name="text_Mascotas">"Mascotas que viven en casa "</string>
+
+    <string-array name="am_pm_options">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>
