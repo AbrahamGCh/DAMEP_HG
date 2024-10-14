@@ -22,12 +22,18 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn1 = findViewById(R.id.botonEnviar);
         btn1.setOnClickListener(view -> Toast.makeText(this, "Se envió sus datos", Toast.LENGTH_SHORT).show());
+
+        // Inicializar el Spinner
         Spinner spinnerAMPM = findViewById(R.id.spinnerAMPM);
 
+        // Crear un ArrayAdapter usando un array de cadenas y un diseño de spinner predeterminado
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.am_pm_options, android.R.layout.simple_spinner_item);
 
+        // Especificar el diseño a usar cuando la lista de opciones se muestra
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // Aplicar el adaptador al Spinner
         spinnerAMPM.setAdapter(adapter);
 
 
